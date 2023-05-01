@@ -1,0 +1,343 @@
+.container{
+    background-color: white;
+    margin: 0 auto;
+    margin-left: 30%;
+    position: relative;
+}
+.purple-curriculum-pt-br {
+    background-color: var(--white);
+    overflow: hidden;
+    padding: 199px 19px 105px 5px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  .flex-wrapper-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flex-wrapper-two:not(:last-of-type) {
+    margin-right: 8px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 270px;
+  }
+  .skills:not(:last-of-type) {
+    margin-bottom: 9px;
+  }
+  .skills-title {
+    height: 25px;
+    width: 192px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(143, 0, 210, 1);
+    display: flex;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .skills-text-pl {
+    height: 44px;
+    width: 175px;
+    display: flex;
+    margin-bottom: 13px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-pl-emphasis-0 {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-frameworks {
+    height: 27px;
+    width: 175px;
+    display: flex;
+    margin-bottom: 16px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-db {
+    height: 28px;
+    width: 175px;
+    display: flex;
+    margin-bottom: 15px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-so {
+    height: 32px;
+    width: 175px;
+    display: flex;
+    margin-bottom: 9px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-so-emphasis-1 {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-design {
+    height: 66px;
+    width: 175px;
+    display: flex;
+    margin-bottom: 9px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .skills-text-languages {
+    height: 66px;
+    width: 175px;
+    display: flex;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .links-text {
+    height: 73px;
+    width: 175px;
+    display: flex;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .divider {
+    width: 6px;
+    height: 564px;
+    margin-right: 6px;
+  }
+  .formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formation:not(:last-of-type) {
+    margin-bottom: 28px;
+  }
+  .formation-title {
+    height: 25px;
+    width: 371px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(143, 0, 210, 1);
+    display: flex;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .formation-text {
+    height: 56px;
+    width: 355px;
+    display: flex;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .formation-text-emphasis-0 {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .formation-text-emphasis-2 {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .formation-text-emphasis-4 {
+    font-family: "Inter";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(88, 88, 88, 1);
+  }
+  .experience {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience-title {
+    height: 25px;
+    width: 371px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(143, 0, 210, 1);
+    display: flex;
+    text-align: center;
+    margin-bottom: 19px;
+  }
+  .experience-text-1 {
+    height: 63px;
+    width: 355px;
+    display: flex;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(88, 88, 88, 1);
+  }
+  .experience-text-1:not(:last-of-type) {
+    margin-bottom: 27px;
+  }
+  .experience-text-1-emphasis-1 {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .qualifications-title {
+    height: 25px;
+    width: 371px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(143, 0, 210, 1);
+    display: flex;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+  .qualifications-text-1 {
+    height: 33px;
+    width: 355px;
+    display: flex;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  .qualifications-text-1:not(:last-of-type) {
+    margin-bottom: 6px;
+  }
+  .footer {
+    width: 960.5px;
+    height: 50px;
+    position: absolute;
+    right: -13.5px;
+    bottom: 26px;
+  }
+  .header {
+    padding: 0 0 28px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: -14px;
+    top: 0;
+  }
+  .photo {
+    width: 134px;
+    height: 134px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    position: absolute;
+    left: 61px;
+    bottom: 0;
+    border: 8px solid rgba(143, 0, 210, 1);
+  }
+  .flex-wrapper-one {
+    padding: 8px 0 0;
+    position: relative;
+  }
+  .header-secondary {
+    width: 614.5px;
+    height: 133px;
+    position: relative;
+  }
+  .header-primary {
+    width: 595px;
+    height: 133px;
+    position: absolute;
+    right: 5.5px;
+    top: 0;
+  }
+  .adress {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20.5px;
+    bottom: 47px;
+  }
+  .point {
+    width: 10.41px;
+    height: 17.13px;
+    margin-right: 4.59px;
+  }
+  .sao-paulo-sp {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+
+  }
+  .num-55-11-12345-6789 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    position: absolute;
+    right: 222.5px;
+    bottom: 55px;
+  }
+  .seu-email-com {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    position: absolute;
+    right: 199.5px;
+    top: 64px;
+  }
+  .seu-nome {
+    width: 333px;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    position: absolute;
+    right: 250.5px;
+    top: 14px;
+  }
