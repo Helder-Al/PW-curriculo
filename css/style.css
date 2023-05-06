@@ -5,13 +5,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .formright{
-    align-items: flex-start;
-    justify-content: left;
-    
+    width:45%;
+    float: right;
 }
 .formleft{ 
-    align-items: flex-start;
-    justify-content: right;
+    width: 45%;
+   float: left;
+}
+.notification.is-primary{
+    background-color: rgb(28, 28, 28);
     
-   
 }
