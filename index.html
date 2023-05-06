@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-   
+    <script type="textjavascript" src="js/main.js"></script>
+    
     <title>Document</title>
 </head>
     <body >
         <div class="container" >
             <div class="notification is-primary" >
-                <form action="js/main.js" method="post">
+                <form name="form" id="form" action="" onsubmit="return catar_dados();" method="post">
                         <div class="formleft">
                         <a1 style="font-size: 32px; font-family: 'Times New Roman', Times, serif;">Currículo</a1>
                         <br></br>
-                        <input class="input is-success" id="In-cab-01" type="text" placeholder="Nome">
-                        <input class="input is-success" id="In-cab-02" type="date" placeholder="Data de nascimento">
-                        <input class="input is-success" id="In-cab-03" type="text" placeholder="E-mail">
-                        <input class="input is-success" id="In-cab-04" type="text" placeholder="Cidade-UF">
-                        <input class="input is-success" id="In-cab-05" type="text" placeholder="Telefone">
+                        <input class="input is-success" id="In-cab-01" type="text" value="" placeholder="Nome">
+                        <input class="input is-success" id="In-cab-02" type="date" value="" placeholder="Data de nascimento">
+                        <input class="input is-success" id="In-cab-03" type="text" value="" placeholder="E-mail">
+                        <input class="input is-success" id="In-cab-04" type="text" value="" placeholder="Cidade-UF">
+                        <input class="input is-success" id="In-cab-05" type="text" value="" placeholder="Telefone">
                         <!--Fim do Cabeçálho-->
                         <!--Começo do corpo do buxim-->
                         <br></br>
@@ -33,7 +34,7 @@
                         <!--Fim Competencias-->
                         <br></br>
                         <a1 style="font-size: 28px; font-family: 'Times New Roman', Times, serif;">Links</a1>
-                        <input class="input is-success" type="text" placeholder="Links Sociais">
+                        <input class="input is-success" id="In-link" type="text" placeholder="Links Sociais">
                         </div>
                         <div class="formright">
                         <a1 style="font-size: 28px; font-family: 'Times New Roman', Times, serif;">Escolaridade</a1>
@@ -50,11 +51,13 @@
                         <input class="input is-success" id="In-exp-04" type="text" placeholder="Data de término">
                         <input class="input is-success" id="In-exp-05" type="text" placeholder="Atividades realizadas">
                         <br></br>
-                        <a1 style="font-size: 28px; font-family: 'Times New Roman', Times, serif;">Competencias</a1>
-                        <input class="input is-success" id="In-compt-01" type="text" placeholder="nome do curso">
-                        <input class="input is-success" id="In-compt-02" type="text" placeholder="nome da instituição">
-                        <input class="input is-success" id="In-compt-03" type="text" placeholder="ano de conclusão">
+                        <a1 style="font-size: 28px; font-family: 'Times New Roman', Times, serif;">Qualificações</a1>
+                        <input class="input is-success" id="In-qua-01" type="text" placeholder="nome do curso">
+                        <input class="input is-success" id="In-qua-02" type="text" placeholder="nome da instituição">
+                        <input class="input is-success" id="In-qua-03" type="text" placeholder="ano de conclusão">
                         </div>                       
+                        <input class="button" type="submit" onclick="catar_dados()" placeholder="Enviar" >
+                        
                 </form>
             </div>
         </div>
