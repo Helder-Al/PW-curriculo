@@ -4,3 +4,14 @@
     font-size: "22px";
     font-family: 'Times New Roman', Times, serif;
 }
+.formright{
+    align-items: flex-start;
+    justify-content: left;
+    
+}
+.formleft{ 
+    align-items: flex-start;
+    justify-content: right;
+    
+   
+}
