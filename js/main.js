@@ -38,7 +38,7 @@ listaTags[32].addEventListener('click', function(event){
     let ps = document.querySelectorAll('p')
     
 
-    window.location.href = `http://127.0.0.1:5500/curriculo.html?In-cab-01=${inputname}&In-cab-02=${inputidade}&In-cab-03=${inputemail}&In-cab-04=${inputcid}&In-cab-05=${inputphone}&In-comp-01=${inputling}&In-comp-02=${inputframe}&In-comp-03=${inputbd}&In-comp-04=${inputso}&In-comp-05=${inputferr}&In-comp-06=${inputidi}&In-link=${inputlink}&In-esc-01=${inputnomecurso}&In-esc-02=${inputgrau}&In-esc-03=${inputnomeuniver}&In-esc-04=${inputdataconclu}&In-exp-01=${inputnomeempres}&In-exp-02=${inputcargo}&In-exp-03=${inputcidadeempr}&In-exp-04=${inputdatatermin}&In-exp-05=${inputatv}&In-qua-01=${inputnomecur}&In-qua-02=${inputnomeinsti}&In-qua-03=${inputanoconclu}`
+    window.location.href = 'http://127.0.0.1:5500/curriculo.html?In-cab-01=${inputname}&In-cab-02=${inputidade}&In-cab-03=${inputemail}&In-cab-04=${inputcid}&In-cab-05=${inputphone}&In-comp-01=${inputling}&In-comp-02=${inputframe}&In-comp-03=${inputbd}&In-comp-04=${inputso}&In-comp-05=${inputferr}&In-comp-06=${inputidi}&In-link=${inputlink}&In-esc-01=${inputnomecurso}&In-esc-02=${inputgrau}&In-esc-03=${inputnomeuniver}&In-esc-04=${inputdataconclu}&In-exp-01=${inputnomeempres}&In-exp-02=${inputcargo}&In-exp-03=${inputcidadeempr}&In-exp-04=${inputdatatermin}&In-exp-05=${inputatv}&In-qua-01=${inputnomecur}&In-qua-02=${inputnomeinsti}&In-qua-03=${inputanoconclu}'
 
     //event.target.parentElement.reset()
 

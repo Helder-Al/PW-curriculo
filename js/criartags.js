@@ -140,7 +140,7 @@ export default function construirTela(){
     listaTags[32].classList.add ("button")
 
 listaTags[2]  .setAttribute("placeholder", "nome")
-listaTags[3]  .setAttribute("placeholder", "data de nascimento")
+listaTags[3]  .setAttribute("type", "date")
 listaTags[4]  .setAttribute("placeholder", "E-mail")
 listaTags[5]  .setAttribute("placeholder", "Cidade - UF")
 listaTags[6]  .setAttribute("placeholder", "Telefone")
@@ -154,15 +154,15 @@ listaTags[15] .setAttribute("placeholder", "Links Sociais")
 listaTags[18] .setAttribute("placeholder", "Nome do Curso")
 listaTags[19] .setAttribute("placeholder", "Grau de Formação")
 listaTags[20] .setAttribute("placeholder", "Nome da universidade ou unidade de ensino")
-listaTags[21] .setAttribute("placeholder", "Data de conclusão ou previsão")
+listaTags[21] .setAttribute("type", "date")
 listaTags[23] .setAttribute("placeholder", "Nome da empresa")
 listaTags[24] .setAttribute("placeholder", "Cargo")
 listaTags[25] .setAttribute("placeholder", "Cidade")
-listaTags[26] .setAttribute("placeholder", "Data de término ou previsão")
+listaTags[26] .setAttribute("type", "date")
 listaTags[27] .setAttribute("placeholder", "Atividades realizadas")
 listaTags[29] .setAttribute("placeholder", "Nome do Curso")
 listaTags[30] .setAttribute("placeholder", "Nome da instituição")
-listaTags[31] .setAttribute("placeholder", "Ano de conclusão")
+listaTags[31] .setAttribute("type", "date")
     
     
     return listaTags

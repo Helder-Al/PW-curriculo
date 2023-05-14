@@ -26,7 +26,7 @@ const urlParams = new URLSearchParams(window.location.search);
     var ano_conclu                = urlParams.get("In-qua-03");
             
 console.log(nome)
-let tags = ['div', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p']
+let tags = ['div', 'p','p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p']
 let conteudo = []
 let body = document.querySelector('body')
 
@@ -69,9 +69,52 @@ conteudo[0].classList.add('container')
 // incluindo na div a tag img e a p
 conteudo[0].appendChild(conteudo[1])
 conteudo[0].appendChild(conteudo[2])
-conteudo[2].classList.add('texto')
-conteudo[1].classList.add('texto')
+conteudo[0].appendChild(conteudo[3])
+conteudo[0].appendChild(conteudo[4])
+conteudo[0].appendChild(conteudo[5])
+conteudo[0].appendChild(conteudo[6])
+conteudo[0].appendChild(conteudo[7])
+conteudo[0].appendChild(conteudo[8])
+conteudo[0].appendChild(conteudo[9])
+conteudo[0].appendChild(conteudo[10])
+conteudo[0].appendChild(conteudo[11])
+conteudo[0].appendChild(conteudo[12])
+conteudo[0].appendChild(conteudo[13])
+conteudo[0].appendChild(conteudo[14])
+conteudo[0].appendChild(conteudo[15])
+conteudo[0].appendChild(conteudo[16])
+conteudo[0].appendChild(conteudo[17])
+conteudo[0].appendChild(conteudo[18])
+conteudo[0].appendChild(conteudo[19])
+conteudo[0].appendChild(conteudo[20])
+conteudo[0].appendChild(conteudo[21])
+conteudo[0].appendChild(conteudo[23])
+conteudo[0].appendChild(conteudo[24])
 
+conteudo[1].classList.add('texto')
+conteudo[2].classList.add('texto')
+conteudo[3].classList.add('texto')
+conteudo[4].classList.add('texto')
+conteudo[5].classList.add('texto')
+conteudo[6].classList.add('texto')
+conteudo[7].classList.add('texto')
+conteudo[8].classList.add('texto')
+conteudo[9].classList.add('texto')
+conteudo[10].classList.add('texto')
+conteudo[11].classList.add('texto')
+conteudo[12].classList.add('texto')
+conteudo[13].classList.add('texto')
+conteudo[14].classList.add('texto')
+conteudo[15].classList.add('texto')
+conteudo[16].classList.add('texto')
+conteudo[17].classList.add('texto')
+conteudo[18].classList.add('texto')
+conteudo[19].classList.add('texto')
+conteudo[20].classList.add('texto')
+conteudo[21].classList.add('texto')
+conteudo[22].classList.add('texto')
+conteudo[23].classList.add('texto')
+conteudo[24].classList.add('texto')
 
 
 
