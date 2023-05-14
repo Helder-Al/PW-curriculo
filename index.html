@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script type="textjavascript" src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
     
     <title>Document</title>
 </head>
     <body >
         <div class="container" >
             <div class="notification is-primary" >
-                <form name="form" id="form" action="" onsubmit="return catar_dados();" method="post">
+                <form name="form" id="form" action="curriculo.html" method="get">
                         <div class="formleft">
                         <a1 style="font-size: 32px; font-family: 'Times New Roman', Times, serif;">Currículo</a1>
                         <br></br>
-                        <input class="input is-success" id="In-cab-01" type="text" value="" placeholder="Nome">
-                        <input class="input is-success" id="In-cab-02" type="date" value="" placeholder="Data de nascimento">
-                        <input class="input is-success" id="In-cab-03" type="text" value="" placeholder="E-mail">
-                        <input class="input is-success" id="In-cab-04" type="text" value="" placeholder="Cidade-UF">
-                        <input class="input is-success" id="In-cab-05" type="text" value="" placeholder="Telefone">
+                        <input class="input is-success" name="In-cab-01" type="text" value="" placeholder="Nome">
+                        <input class="input is-success" name="In-cab-02" type="date" value="" placeholder="Data de nascimento">
+                        <input class="input is-success" name="In-cab-03" type="text" value="" placeholder="E-mail">
+                        <input class="input is-success" name="In-cab-04" type="text" value="" placeholder="Cidade-UF">
+                        <input class="input is-success" name="In-cab-05" type="text" value="" placeholder="Telefone">
                         <!--Fim do Cabeçálho-->
                         <!--Começo do corpo do buxim-->
                         <br></br>
@@ -59,6 +59,8 @@
                         <input class="button" type="submit" onclick="catar_dados()" placeholder="Enviar" >
                         
                 </form>
+                <a href="curriculo.html"><button>Vai pro curriculo</button></a>
+                
             </div>
         </div>
         
