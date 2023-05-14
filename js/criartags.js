@@ -55,9 +55,10 @@ export default function construirTela(){
     listaTags[26].name = 'In-exp-04'
     listaTags[27].name = 'In-exp-05'
     listaTags[28].textContent = 'Qualificações'
-    listaTags[29].name = 'Links'
-    listaTags[30].name = 'Links'
-    listaTags[31].name = 'Links'
+    listaTags[29].name = 'In-qua-01'
+    listaTags[30].name = 'In-qua-02'
+    listaTags[31].name = 'In-qua-03'
+    listaTags[32].textContent='Enviar'
     
 
     //formright
@@ -79,6 +80,95 @@ export default function construirTela(){
     listaTags[16].appendChild(listaTags[30])
     listaTags[16].appendChild(listaTags[31])
     //formright end
+
+    //css dos buxinhos
+    listaTags[1].classList.add ("txt")
+    listaTags[2].classList.add ("input")
+    listaTags[3].classList.add ("input")
+    listaTags[4].classList.add ("input")
+    listaTags[5].classList.add ("input")
+    listaTags[6].classList.add ("input")
+    listaTags[2].classList.add ("is-success")
+    listaTags[3].classList.add ("is-success")
+    listaTags[4].classList.add ("is-success")
+    listaTags[5].classList.add ("is-success")
+    listaTags[6].classList.add ("is-success")
+    
+    listaTags[7].classList.add ("txt")
+    listaTags[8] .classList.add ("input")
+    listaTags[9] .classList.add ("input")
+    listaTags[10].classList.add ("input")
+    listaTags[11].classList.add ("input")
+    listaTags[12].classList.add ("input")
+    listaTags[13].classList.add ("input")
+    listaTags[8] .classList.add ("is-success")
+    listaTags[9] .classList.add ("is-success")
+    listaTags[10].classList.add ("is-success")
+    listaTags[11].classList.add ("is-success")
+    listaTags[12].classList.add ("is-success")
+    listaTags[13].classList.add ("is-success")
+    listaTags[14].classList.add("txt")
+    listaTags[15].classList.add ("input")
+    listaTags[15].classList.add ("is-success")
+    listaTags[17].classList.add("txt")
+    listaTags[18].classList.add ("input")
+    listaTags[19].classList.add ("input")
+    listaTags[20].classList.add ("input")
+    listaTags[21].classList.add ("input")
+    listaTags[18].classList.add ("is-success")
+    listaTags[19].classList.add ("is-success")
+    listaTags[20].classList.add ("is-success")
+    listaTags[21].classList.add ("is-success")
+    listaTags[22].classList.add("txt")
+    listaTags[23].classList.add ("input")
+    listaTags[24].classList.add ("input")
+    listaTags[25].classList.add ("input")
+    listaTags[26].classList.add ("input")
+    listaTags[27].classList.add ("input")
+    listaTags[23].classList.add ("is-success")
+    listaTags[24].classList.add ("is-success")
+    listaTags[25].classList.add ("is-success")
+    listaTags[26].classList.add ("is-success")
+    listaTags[27].classList.add ("is-success")
+    listaTags[28].classList.add("txt")
+    listaTags[29].classList.add ("input")
+    listaTags[30].classList.add ("input")
+    listaTags[31].classList.add ("input")
+    listaTags[29].classList.add ("is-success")
+    listaTags[30].classList.add ("is-success")
+    listaTags[31].classList.add ("is-success")
+    listaTags[32].classList.add ("button")
+
+    //listaTags[2].classList.add ("")
+    //listaTags[3].classList.add ("")
+    //listaTags[4].classList.add ("")
+    //listaTags[5].classList.add ("")
+    //listaTags[6].classList.add ("")
+//
+    //listaTags[8].classList.add ("")
+    //listaTags[9].classList.add ("")
+    //listaTags[10].classList.add("")
+    //listaTags[11].classList.add("")
+    //listaTags[12].classList.add("")
+    //listaTags[13].classList.add("")
+    //
+    //listaTags[15].classList.add("")
+    //
+    //listaTags[18].classList.add("")
+    //listaTags[19].classList.add("")
+    //listaTags[21].classList.add("")
+    //
+    //listaTags[23].classList.add("")
+    //listaTags[24].classList.add("")
+    //listaTags[25].classList.add("")
+    //listaTags[26].classList.add("")
+    //listaTags[27].classList.add("")
+    //
+    //listaTags[29].classList.add("")
+    //listaTags[30].classList.add("")
+    //listaTags[31].classList.add("")
+    
+    
     return listaTags
 }
 
@@ -87,7 +177,7 @@ function incluirNaTela(){
     
     let tag = ['div', 'label', 'input', 'input', 'input', 'input', 'input', 'label', 'input', 'input', 'input', 'input',
      'input', 'input','label', 'input', 'div', 'label', 'input', 'input', 'input', 'input', 'label', 'input', 'input',
-      'input', 'input', 'input', 'label','input', 'input', 'input']
+      'input', 'input', 'input', 'label','input', 'input', 'input', 'button']
    
     tag.forEach(t => {
         listaTags = criarTags(t)

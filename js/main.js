@@ -1,50 +1,44 @@
 import construirTela from "./criartags.js";
 //pegando dados
-const urlParams = new URLSearchParams(window.location.search);
-export default function  catar_dados(){
-    var nome                      = urlParams.get("In-cab-01");
-    var data_nasc                 = urlParams.get("In-cab-02");
-    var email                     = urlParams.get("In-cab-03");
-    var cid_uf                    = urlParams.get("In-cab-04");
-    var telefone                  = urlParams.get("In-cab-05");
-    var ling                      = urlParams.get("In-comp-01");
-    var fram                      = urlParams.get("In-comp-02");
-    var bd                        = urlParams.get("In-comp-03");
-    var so                        = urlParams.get("In-comp-04");
-    var ferramen                  = urlParams.get("In-comp-05");
-    var idiomas                   = urlParams.get("In-comp-06");
-    var links                     = urlParams.get("In-link");
-    var nome_de_curso             = urlParams.get("In-esc-01");
-    var grau                      = urlParams.get("In-esc-02");
-    var nome_univer               = urlParams.get("In-esc-03");
-    var data_conclusao_previsao   = urlParams.get("In-esc-04");
-    var nome_empresa              = urlParams.get("In-exp-01");
-    var cargo                     = urlParams.get("In-exp-02");
-    var cid_emp                   = urlParams.get("In-exp-03");
-    var data_termino              = urlParams.get("In-exp-04");
-    var atv_realizada             = urlParams.get("In-exp-05");
-    var nome_curso                = urlParams.get("In-qua-01");
-    var nome_inst                 = urlParams.get("In-qua-02");
-    var ano_conclu                = urlParams.get("In-qua-03");
-    
 
-}
 let listaTags = construirTela()
 
 //console.log(listaTags[4])
 
 
-listaTags[4].addEventListener('click', function(event){
+listaTags[32].addEventListener('click', function(event){
     event.preventDefault()
     let inputs = document.querySelectorAll('input')
 
-    let inputName = inputs[0].value
-    let inputIdade = inputs[1].value
+    let inputname       = inputs[0].value
+    let inputidade      = inputs[1].value
+    let inputemail      = inputs[2].value
+    let inputcid        = inputs[3].value
+    let inputphone      = inputs[4].value
+    let inputling       = inputs[5].value
+    let inputframe      = inputs[6].value
+    let inputbd         = inputs[7].value
+    let inputso         = inputs[8].value
+    let inputferr       = inputs[9].value
+    let inputidi        = inputs[10].value
+    let inputlink       = inputs[11].value
+    let inputnomecurso  = inputs[12].value
+    let inputgrau       = inputs[13].value
+    let inputnomeuniver = inputs[14].value
+    let inputdataconclu = inputs[15].value
+    let inputnomeempres = inputs[16].value
+    let inputcargo      = inputs[17].value
+    let inputcidadeempr = inputs[18].value
+    let inputdatatermin = inputs[19].value
+    let inputatv        = inputs[20].value
+    let inputnomecur    = inputs[21].value
+    let inputnomeinsti  = inputs[22].value
+    let inputanoconclu  = inputs[23].value
 
     let ps = document.querySelectorAll('p')
     
 
-    window.location.href = `http://127.0.0.1:5501/resposta.html?nome=${inputName}&idade=${inputIdade}`
+    window.location.href = `http://127.0.0.1:5500/curriculo.html?In-cab-01=${inputname}&In-cab-02=${inputidade}&In-cab-03=${inputemail}&In-cab-04=${inputcid}&In-cab-05=${inputphone}&In-comp-01=${inputling}&In-comp-02=${inputframe}&In-comp-03=${inputbd}&In-comp-04=${inputso}&In-comp-05=${inputferr}&In-comp-06=${inputidi}&In-link=${inputlink}&In-esc-01=${inputnomecurso}&In-esc-02=${inputgrau}&In-esc-03=${inputnomeuniver}&In-esc-04=${inputdataconclu}&In-exp-01=${inputnomeempres}&In-exp-02=${inputcargo}&In-exp-03=${inputcidadeempr}&In-exp-04=${inputdatatermin}&In-exp-05=${inputatv}&In-qua-01=${inputnomecur}&In-qua-02=${inputnomeinsti}&In-qua-03=${inputanoconclu}`
 
     //event.target.parentElement.reset()
 
